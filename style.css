@@ -1,16 +1,27 @@
-<!-- Center -->
-      <h1>The Wonders of CSS!</h1>
+center {
+  display: block;
+  margin: auto;
+}
 
-      <hr>
+.red {
+  color: red; 
+}
 
-      <h2>Fun With Text!</h2>
+.blue {
+  color:blue;
+}
 
-      <!-- Change text color -->
-      <p>This text is red.</p>
-      <p>This text is blue.</p>
-      <p>This text is green.</p>
+.green {
+  color:green;
+}
 
-      <!-- Change font-size -->
+p.uppercase {
+  text-transform: capitalize;
+}
+
+p.lowercase{
+  text-transform: lowercase;
+}
       <p>This text is BIG!</p>
       <p>This text is tiny...</p>
 
@@ -40,10 +51,6 @@
 
       <p>Just as classes can be used to style multiple elements, id's are used to style single, unique elements. Give the following image a border by adding style attributes to your external CSS file. (Hint: Remember to include a border width, style, and color.)</p>
 
-      <!-- Border & id -->
-      <img id="styledImage" alt="Picture of the CSS Icon" src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg">
-
-      <hr>
-
-  </body>
-</html>
+img {
+  border: 20px solid salmon;
+}
